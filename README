@@ -8,3 +8,6 @@ runs - stores .R and .sh fiels to run the code
 src - contains implementations of estimators
 synthetic - stores .R and .sh files to run the code for synthetic data (look into folders, and run the files from proper folders)
 temp - all results will be stored there
+
+firstly do sampling for each database using sampling.R files (check the last symbols of each row for each databases for NA). sampling.R will apply t-test
+then you can modify files in run folder, put proper paths to save files, to run database
