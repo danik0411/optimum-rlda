@@ -1,0 +1,60 @@
+# this code will merge two results
+
+res1 = "/home/danik/Dropbox/myStudy/rlda/results/sonar/sonarCompData.RData";
+res2 = "/home/danik/Dropbox/myStudy/rlda/results/sonar/sonarCompData_ext.RData";
+
+list1 = load( res1 );
+
+varToChange = c("ErrorDouble" , "ErrorCV" , "ErrorLOO" , "ErrorPlugin" , "ErrorTrue" );
+varToChange = paste( "sonar_total" , varToChange , sep="" );
+	    
+n = length( varToChange );
+
+# creating pseudo res1 variables
+for( i in 1:n ) {
+     s1 = paste( varToChange[i] , "1" , sep="");
+     s2 = varToChange[i];
+     myExp = paste(s1, "=" , s2 , sep="");
+     print(myExp);
+     eval( parse( text=myExp ) );
+}
+
+n1 = length(gammaValues);
+
+rm(list=list1);
+list2 = load( res2 );
+
+# creating pseudo res2 variables
+for( i in 1:n ) {
+     s1 = paste( varToChange[i] , "2" , sep="");
+     s2 = varToChange[i];
+     myExp = paste(s1, "=" , s2 , sep="");
+     print(myExp);
+     eval( parse( text=myExp ) );
+}
+
+n2 = length(gammaValues);
+
+rm(list=varToChange);
+# creating real outputVariables
+for( i in 1:n ) {
+     s1 = varToChange[i];
+     s2 = paste( "array(-1,dim=c(" , as.character(repetition) , "," , as.character(n1+n2) , "," , as.character(length(sampleSize)) , "));");
+     myExp = paste( s1 , "=" , s2 , sep="");
+     print(myExp);
+     eval(parse(text=myExp));
+}
+
+for( i in 1:n ) {
+     s0 = varToChange[i];
+     s1 = paste( varToChange[i] , "1" , sep="");
+     s2 = paste( varToChange[i] , "2" , sep="");
+     for ( j in 1:length(sampleSize) ) {
+     	 c0 = paste( s0 , "[,," , j , "]" , sep="" );
+     	 c1 = paste( s1 , "[,," , j , "]" , sep="" );
+     	 c2 = paste( s2 , "[,," , j , "]" , sep="" );
+     	 myExp = paste( c0 , "=cbind(" , c1 , "," , c2 , ");" , sep="" );
+     	 print(myExp);
+     	 eval( parse( text=myExp ) );
+     }
+}

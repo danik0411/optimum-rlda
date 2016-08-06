@@ -1,0 +1,10 @@
+written by Daniyar Bakir, created on 7 June 2016 (mostly earlier)
+
+NOTE: when using sampling.R, first check the data, sometimes there are NA at the end of each row, probably because of the different \newline symbols between Windows and Linux, but nevermind
+
+data - stores databases with sampling.R files
+logs - stores log
+runs - stores .R and .sh fiels to run the code
+src - contains implementations of estimators
+synthetic - stores .R and .sh files to run the code for synthetic data (look into folders, and run the files from proper folders)
+temp - all results will be stored there

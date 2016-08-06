@@ -1,0 +1,11 @@
+[1] "/home/danik/study/project1_allFiles/project1_synthetic/synthetic"
+[1] "total sample size is"
+ [1]  30  40  50  60  70  80  90 100 110 120 130 140 150 200 250 300
+[1] "mah distance is 5, feature size us 50"
+
+
+[1] "running the applyAllEstimators"
+[1] "there 31 gammaValues; p is 50; dist is 5.00; repetition is 500"
+[1] "sampleSize is"
+[1] 30
+[1] "starting computations on sampleSize of 30 at 2016-06-10 17:22:41"

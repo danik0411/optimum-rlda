@@ -1,0 +1,67 @@
+# i wanna do the thing
+
+# i will create an array of sample numbers, and then use them for analysis
+
+rm(list=ls(all=TRUE))	# clear all environments
+
+mDist = c( 9, 5, 2, 0.75 );
+p_array = c(5 , 20 , 50 , 150);
+
+load("test_synthData.RData");
+allData = Data;
+rm(list = "Data");
+
+for( pCounter in 1:length(p_array) ) {
+
+for( mCounter in 1:length(mDist) ) {
+
+Data = allData[[ pCounter , mCounter ]];
+
+repetition = 500;
+
+rows = dim( Data )[1];
+uns = dim( Data )[2];
+orgClasses = unique( Data [ rows , ] );
+
+classes = c( 0, 1 );
+
+Data[ rows , Data[ rows , ] == orgClasses[1] ] = classes[1];
+Data[ rows , Data[ rows , ] == orgClasses[2] ] = classes[2];
+
+Data = array( as.numeric( Data ) , dim = c ( rows , uns ) );
+
+trueLabels = Data[rows , ];
+
+class0 = which( trueLabels %in% classes[1] );
+class1 = which( trueLabels %in% classes[2] );
+
+un0 = length( class0 );
+un1 = length( class1 );
+uns = un0 + un1;
+
+r = un0 / un1;
+
+sampleSize = seq( 30 , 150 , by=10 );
+
+sampleNumbers = array( list() , dim=c( length(sampleSize) , repetition , length(classes) ) );
+
+for ( i in 1:length(sampleSize) ) {
+
+    n1 = floor ( sampleSize[i] / ( 1 + r ) );
+    n0 = sampleSize[i] - n1;
+
+    for ( j in 1:repetition ) {
+
+    	sample0 = sample( class0 , n0 );
+	sample1 = sample( class1 , n1 );
+    	
+    	sampleNumbers[[ i , j , 1 ]] = sample0;
+    	sampleNumbers[[ i , j , 2 ]] = sample1;
+    }
+}
+
+save( list = c("sampleNumbers" , "Data") , file= sprintf("sampleNumbers/testsynth_sampleNumbers_%.0fp%.0fm.RData" , p_array[pCounter] , mDist[mCounter]  ) );
+
+}
+
+}

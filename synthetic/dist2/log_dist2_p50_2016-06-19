@@ -1,0 +1,201 @@
+During startup - Warning messages:
+1: Setting LC_TIME failed, using "C" 
+2: Setting LC_MONETARY failed, using "C" 
+3: Setting LC_PAPER failed, using "C" 
+4: Setting LC_MEASUREMENT failed, using "C" 
+[1] "/home/admin/Daniyar/project1_june16_synthetic/synthetic"
+[1] "total sample size is"
+ [1]  30  40  50  60  70  80  90 100 110 120 130 140 150 200 250 300
+[1] "mah distance is 2, feature size us 50"
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 30
+[1] "starting computations on sampleSize of 30 at 2016-06-19 14:57:09"
+[1] "finished computations on sampleSize of 30 at 2016-06-19 15:09:06"
+[1] "the process took 716.902 seconds (0.199 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample30.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 40
+[1] "starting computations on sampleSize of 40 at 2016-06-19 15:09:06"
+[1] "finished computations on sampleSize of 40 at 2016-06-19 15:23:12"
+[1] "the process took 846.152 seconds (0.235 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample40.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 50
+[1] "starting computations on sampleSize of 50 at 2016-06-19 15:23:12"
+[1] "finished computations on sampleSize of 50 at 2016-06-19 15:39:26"
+[1] "the process took 974.048 seconds (0.271 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample50.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 60
+[1] "starting computations on sampleSize of 60 at 2016-06-19 15:39:26"
+[1] "finished computations on sampleSize of 60 at 2016-06-19 15:57:52"
+[1] "the process took 1105.311 seconds (0.307 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample60.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 70
+[1] "starting computations on sampleSize of 70 at 2016-06-19 15:57:52"
+[1] "finished computations on sampleSize of 70 at 2016-06-19 16:18:02"
+[1] "the process took 1210.709 seconds (0.336 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample70.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 80
+[1] "starting computations on sampleSize of 80 at 2016-06-19 16:18:02"
+[1] "finished computations on sampleSize of 80 at 2016-06-19 16:40:25"
+[1] "the process took 1342.140 seconds (0.373 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample80.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 90
+[1] "starting computations on sampleSize of 90 at 2016-06-19 16:40:25"
+[1] "finished computations on sampleSize of 90 at 2016-06-19 17:04:48"
+[1] "the process took 1463.020 seconds (0.406 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample90.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 100
+[1] "starting computations on sampleSize of 100 at 2016-06-19 17:04:48"
+[1] "finished computations on sampleSize of 100 at 2016-06-19 17:31:27"
+[1] "the process took 1599.248 seconds (0.444 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample100.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 110
+[1] "starting computations on sampleSize of 110 at 2016-06-19 17:31:27"
+[1] "finished computations on sampleSize of 110 at 2016-06-19 17:59:58"
+[1] "the process took 1711.054 seconds (0.475 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample110.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 120
+[1] "starting computations on sampleSize of 120 at 2016-06-19 17:59:58"
+[1] "finished computations on sampleSize of 120 at 2016-06-19 18:30:00"
+[1] "the process took 1802.044 seconds (0.501 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample120.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 130
+[1] "starting computations on sampleSize of 130 at 2016-06-19 18:30:00"
+[1] "finished computations on sampleSize of 130 at 2016-06-19 19:02:03"
+[1] "the process took 1923.015 seconds (0.534 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample130.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 140
+[1] "starting computations on sampleSize of 140 at 2016-06-19 19:02:03"
+[1] "finished computations on sampleSize of 140 at 2016-06-19 19:36:25"
+[1] "the process took 2061.562 seconds (0.573 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample140.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 150
+[1] "starting computations on sampleSize of 150 at 2016-06-19 19:36:25"
+[1] "finished computations on sampleSize of 150 at 2016-06-19 20:12:55"
+[1] "the process took 2189.842 seconds (0.608 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample150.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 200
+[1] "starting computations on sampleSize of 200 at 2016-06-19 20:12:55"
+[1] "finished computations on sampleSize of 200 at 2016-06-19 21:00:19"
+[1] "the process took 2844.710 seconds (0.790 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample200.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 250
+[1] "starting computations on sampleSize of 250 at 2016-06-19 21:00:19"
+[1] "finished computations on sampleSize of 250 at 2016-06-19 22:00:26"
+[1] "the process took 3606.422 seconds (1.002 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample250.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 50; dist is 2.00; repetition is 500"
+[1] "sampleSize is"
+[1] 300
+[1] "starting computations on sampleSize of 300 at 2016-06-19 22:00:26"
+[1] "finished computations on sampleSize of 300 at 2016-06-19 23:10:02"
+[1] "the process took 4175.871 seconds (1.160 hours)"
+[1] "saving to file  /home/admin/Daniyar/project1_june16_synthetic/synthetic/dist2/p50/synth_p50_sample300.RData"
+
+

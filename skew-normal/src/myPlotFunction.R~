@@ -1,0 +1,28 @@
+myPlotFunction = function( filename , xValue , yValue , legText , cols , title="" , xlabel , ylabel , legPosition="topright" , horiz=FALSE , theGrid=TRUE , legRows=-1 ) {
+
+#if you put legRows then horiz will not make sense
+
+svg( filename , width=10,height=10);
+theX = xValue;
+ymin = min( yValue );		ymax = max( yValue );
+ydiff = 0.1 * abs( ymax - ymin );
+ymin = ymin - ydiff;	        ymax = ymax + ydiff;
+theY = seq( ymin , ymax , length = length(theX) );
+
+plot( theX , theY , type="n" , xlab=xlabel , ylab=ylabel , main=title );
+
+for ( i in 1:length(cols) ) {
+    lines( xValue , yValue[i,] , col=cols[i] );
+}
+
+if ( legRows > 0 ) {
+legend( legPosition , inset=0.01 , col=cols, legend=legText , lty=c(1,1) , lwd=c(2,2) , ncol=legRows );
+} else if ( legRows == -1 ) {
+legend( legPosition , inset=0.01 , col=cols, legend=legText , lty=c(1,1) , lwd=c(2,2) , horiz=horiz );
+}
+
+if ( theGrid == TRUE ) { grid(); }
+
+dev.off();
+
+}

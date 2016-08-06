@@ -1,0 +1,131 @@
+[1] "/home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic"
+[1] "total sample size is"
+ [1]  30  40  50  60  70  80  90 100 110 120 130 140 150 200 250 300
+[1] "mah distance is 0.75, feature size us 150"
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 30
+[1] "starting computations on sampleSize of 30 at 2016-06-18 12:56:00"
+[1] "finished computations on sampleSize of 30 at 2016-06-18 14:13:20"
+[1] "the process took 4639.997 seconds (1.289 hours)"
+[1] "saving to file  /home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic/dist0.75/p150/synth_p150_sample30.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 40
+[1] "starting computations on sampleSize of 40 at 2016-06-18 14:13:20"
+[1] "finished computations on sampleSize of 40 at 2016-06-18 15:44:16"
+[1] "the process took 5456.540 seconds (1.516 hours)"
+[1] "saving to file  /home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic/dist0.75/p150/synth_p150_sample40.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 50
+[1] "starting computations on sampleSize of 50 at 2016-06-18 15:44:16"
+[1] "finished computations on sampleSize of 50 at 2016-06-18 17:30:11"
+[1] "the process took 6354.834 seconds (1.765 hours)"
+[1] "saving to file  /home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic/dist0.75/p150/synth_p150_sample50.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 60
+[1] "starting computations on sampleSize of 60 at 2016-06-18 17:30:11"
+[1] "finished computations on sampleSize of 60 at 2016-06-18 19:30:12"
+[1] "the process took 7200.526 seconds (2.000 hours)"
+[1] "saving to file  /home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic/dist0.75/p150/synth_p150_sample60.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 70
+[1] "starting computations on sampleSize of 70 at 2016-06-18 19:30:12"
+[1] "finished computations on sampleSize of 70 at 2016-06-18 21:44:19"
+[1] "the process took 8047.282 seconds (2.235 hours)"
+[1] "saving to file  /home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic/dist0.75/p150/synth_p150_sample70.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 80
+[1] "starting computations on sampleSize of 80 at 2016-06-18 21:44:19"
+[1] "finished computations on sampleSize of 80 at 2016-06-19 00:12:44"
+[1] "the process took 8904.943 seconds (2.474 hours)"
+[1] "saving to file  /home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic/dist0.75/p150/synth_p150_sample80.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 90
+[1] "starting computations on sampleSize of 90 at 2016-06-19 00:12:44"
+[1] "finished computations on sampleSize of 90 at 2016-06-19 02:55:33"
+[1] "the process took 9768.887 seconds (2.714 hours)"
+[1] "saving to file  /home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic/dist0.75/p150/synth_p150_sample90.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 100
+[1] "starting computations on sampleSize of 100 at 2016-06-19 02:55:33"
+[1] "finished computations on sampleSize of 100 at 2016-06-19 05:52:16"
+[1] "the process took 10602.441 seconds (2.945 hours)"
+[1] "saving to file  /home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic/dist0.75/p150/synth_p150_sample100.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 110
+[1] "starting computations on sampleSize of 110 at 2016-06-19 05:52:16"
+[1] "finished computations on sampleSize of 110 at 2016-06-19 09:02:55"
+[1] "the process took 11439.236 seconds (3.178 hours)"
+[1] "saving to file  /home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic/dist0.75/p150/synth_p150_sample110.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 120
+[1] "starting computations on sampleSize of 120 at 2016-06-19 09:02:55"
+[1] "finished computations on sampleSize of 120 at 2016-06-19 12:26:00"
+[1] "the process took 12185.447 seconds (3.385 hours)"
+[1] "saving to file  /home/danik/study/project1_allFiles/project1_june16_synthetic/synthetic/dist0.75/p150/synth_p150_sample120.RData"
+
+
+
+
+[1] "running the applyAllEstimators"
+[1] "there 21 gammaValues; p is 150; dist is 0.75; repetition is 500"
+[1] "sampleSize is"
+[1] 130
+[1] "starting computations on sampleSize of 130 at 2016-06-19 12:26:00"
