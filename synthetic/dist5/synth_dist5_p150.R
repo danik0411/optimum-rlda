@@ -3,14 +3,12 @@
 rm(list=ls(all=TRUE));
 
 source("synth_applyAllEstimators.R");
-source("plotAllFigures.R");
 
 qqq = new.env();
 print(getwd());
 PATH_PROJ=getwd();
 
 environment( synth_applyAllEstimators ) = qqq;
-environment( plotAllFigures ) = qqq;
 
 # setting up the parameters
 # define parameters of the run
